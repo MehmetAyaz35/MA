@@ -12,6 +12,7 @@ class TestBeer(unittest.TestCase):
         c = canIBuyBeer(age,loc)
         # ASSERT
         #self.assertGreater(990)
+        
         self.assertFalse(c)
 
     def test_when_18_and_on_krogen_should_be_allowed(self):
