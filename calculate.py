@@ -2,7 +2,8 @@ def canIBuyBeer(age, location):
     if age >= 18 and location == "krogen":
         return True
     if age >= 20 and location == "systemet":
-        return True    
+        return True
+        
     return False
 
 # A arrange
